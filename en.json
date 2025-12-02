@@ -76,5 +76,6 @@
         "testsAndExams": "Tests & Exams",
         "feeds": "Feeds",
         "home": "Home",
-        "schedule": "Schedule"
+        "schedule": "Schedule",
+        "markCompleted":"Mark Completed"
     }
