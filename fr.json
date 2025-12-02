@@ -76,5 +76,6 @@
     "testsAndExams": "Tests & Examens",
     "feeds": "Actualités",
     "home": "Accueil",
-    "schedule": "Planning"
+    "schedule": "Planning",
+    "markCompleted":"Terminé"
 }
