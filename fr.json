@@ -19,9 +19,24 @@
     "enterFullName": "Entrez votre nom complet",
     "iAgreeWithTerms": "J'accepte les Termes & Conditions",
     "verifyYourNumber": "Vérifier votre numéro",
-    "verificationCodeInstruction": "Entrez le code de vérification envoyé à votre numéro WhatsApp pour terminer la vérification"
+    "verificationCodeInstruction": "Entrez le code de vérification envoyé à votre numéro WhatsApp pour terminer la vérification",
+    "loggedIn": "Connecté",
+    "loggedOutSuccessfully": "",
+    "loggedOutFromAllAccounts": "",
+    "logoutError": "",
+    "logout": "",
+    "doYouWantToLogoutFrom": "",
+    "yourOtherAccountsWillRemainLoggedIn": "",
+    "areYouSureYouWantToLogout": "",
+    "logOutFromAllAccounts":"",
+    "thisWillLogoutFromAllYourAccounts":"",
+    "logoutAll":"",
+    "switchRole":"",
+    "accountAvailable":"",
+    "addAnotherProfile":"",
+    "allProfilesAdded":"",
+    "logoutFromThisAccount":""
   },
-  
   "homework": {
     "title": "Travail à faire",
     "deadline": "Date Limite",
@@ -48,9 +63,8 @@
     "dueToday": "",
     "dayLeft": "",
     "daysLeft": "Jours restants",
-    "overDue":""
+    "overDue": ""
   },
-  
   "fee": {
     "title": "Frais",
     "calendar": "Calendrier",
@@ -72,7 +86,6 @@
     "noVouchersFound": "",
     "noSlipFound": ""
   },
-  
   "exams": {
     "title": "Examens",
     "testsAndExams": "Tests & Examens",
@@ -91,9 +104,9 @@
     "firstTermExam": "Premier examen trimestriel",
     "noExamsFound": "",
     "noDataAvailable": "",
-    "noSubjectsAvailable": ""
+    "noSubjectsAvailable": "",
+    "endedOn": ""
   },
-  
   "messages": {
     "title": "Messages",
     "privateMessages": "Messages privés",
@@ -103,7 +116,6 @@
     "noMessagesFound": "",
     "cannotGetMessages": ""
   },
-  
   "navigation": {
     "home": "Accueil",
     "notices": "Avis",
@@ -117,7 +129,6 @@
     "schedule": "Planning",
     "feeds": "Actualités"
   },
-  
   "common": {
     "hello": "Bonjour",
     "welcomeTo": "Bienvenue à",
@@ -145,9 +156,13 @@
     "attachment": "",
     "downloadSuccessfully": "",
     "failedToDownload": "",
-    "downloadLinkNotAvailable": ""
+    "downloadLinkNotAvailable": "",
+    "retry": "",
+    "somethingWentWrong": "",
+    "chooseYourRole": "",
+    "account": "",
+    "cancel": ""
   },
-  
   "validation": {
     "emailRequired": "",
     "invalidEmail": "",
@@ -156,7 +171,6 @@
     "pleaseEnterCompletePin": "Veuillez entrer le code pin complet",
     "numberNotRegistered": ""
   },
-  
   "roles": {
     "chooseYourRole": "",
     "student": "",
@@ -164,7 +178,6 @@
     "parent": "",
     "admin": ""
   },
-  
   "empty": {
     "noStudentAvailable": "",
     "noNoticesFound": "",
