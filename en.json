@@ -34,8 +34,8 @@
     "switchRole": "Switch Role",
     "accountAvailable": "accounts available",
     "addAnotherProfile": "Add Another Profile",
-    "allProfilesAdded":"All profiles are already added",
-    "logoutFromThisAccount":"Logout from this account"
+    "allProfilesAdded": "All profiles are already added",
+    "logoutFromThisAccount": "Logout from this account"
   },
   "homework": {
     "title": "HomeWork",
@@ -117,6 +117,7 @@
     "cannotGetMessages": "Cannot get messages"
   },
   "navigation": {
+    "homework": "Homework",
     "home": "Home",
     "notices": "Notices",
     "activities": "Activities",
