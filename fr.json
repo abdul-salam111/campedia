@@ -28,14 +28,14 @@
     "doYouWantToLogoutFrom": "Voulez-vous vous déconnecter de",
     "yourOtherAccountsWillRemainLoggedIn": "Les autres comptes resteront connectés",
     "areYouSureYouWantToLogout": "Êtes-vous sûr de vouloir vous déconnecter ?",
-    "logOutFromAllAccounts":"Déconnexion de tous les comptes",
-    "thisWillLogoutFromAllYourAccounts":"Cette action vous déconnectera de tous vos comptes",
-    "logoutAll":"Déconnexion totale",
-    "switchRole":"Changer de rôle",
-    "accountAvailable":"Comptes disponibles",
-    "addAnotherProfile":"Ajouter un autre profil",
-    "allProfilesAdded":"Tous les profils sont déjà ajoutés",
-    "logoutFromThisAccount":"Se déconnecter de ce compte"
+    "logOutFromAllAccounts": "Déconnexion de tous les comptes",
+    "thisWillLogoutFromAllYourAccounts": "Cette action vous déconnectera de tous vos comptes",
+    "logoutAll": "Déconnexion totale",
+    "switchRole": "Changer de rôle",
+    "accountAvailable": "Comptes disponibles",
+    "addAnotherProfile": "Ajouter un autre profil",
+    "allProfilesAdded": "Tous les profils sont déjà ajoutés",
+    "logoutFromThisAccount": "Se déconnecter de ce compte"
   },
   "homework": {
     "title": "Travail à faire",
@@ -105,7 +105,8 @@
     "noExamsFound": "Aucun examen trouvé",
     "noDataAvailable": "Aucune donnée d’examen disponible",
     "noSubjectsAvailable": "Aucune matière disponible",
-    "endedOn": "Terminé le"
+    "endedOn": "Terminé le",
+    "examInProgress": ""
   },
   "messages": {
     "title": "Messages",
