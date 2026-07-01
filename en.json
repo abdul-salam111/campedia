@@ -4,6 +4,7 @@
     "logIntoYourAccount": "Log into your account",
     "enterWhatsappNumber": "Enter your WhatsApp number",
     "enterPassword": "Enter your password",
+    "enterConfirmPassword": "Enter your confirm password",
     "enterEmail": "Enter your email",
     "forgotPassword": "Forgot Password?",
     "login": "Login",
@@ -35,7 +36,21 @@
     "accountAvailable": "accounts available",
     "addAnotherProfile": "Add Another Profile",
     "allProfilesAdded": "All profiles are already added",
-    "logoutFromThisAccount": "Logout from this account"
+    "logoutFromThisAccount": "Logout from this account",
+    "deleteAccount": "Delete Account",
+    "deleteAccountConfirmation": "This will permanently delete your account and all associated data. This action cannot be undone. Are you sure?",
+    "accountDeletedSuccessfully": "Account deleted successfully",
+    "phoneVerifiedSuccessfully": "Phone number verified successfully!",
+    "invalidOtp": "Invalid OTP. Please try again.",
+    "congratulations": "🎉 Congratulations!",
+    "accountCreatedSuccessfully": "Your account has been created successfully.",
+    "pleaseVerifyAccount": "Please verify your account to get started.",
+    "verifyMyAccount": "Verify My Account",
+    "redirectingIn": "Redirecting in {seconds} second(s)...",
+    "sessionExpired": "Session expired. Please login again.",
+    "authenticationError": "Authentication error",
+    "confirmPasswordRequired": "Confirm Password is required",
+    "passwordDoesNotMatch": "Passwords do not match"
   },
   "homework": {
     "title": "HomeWork",
@@ -63,7 +78,10 @@
     "dueToday": "Due Today",
     "dayLeft": "Day left",
     "daysLeft": "Days left",
-    "overDue": "Over Due"
+    "overDue": "Over Due",
+    "fullMonthStatus": "Full Month Status",
+    "noDataForDate": "Data not found, please select any other date.",
+    "unknownSubject": "Unknown Subject"
   },
   "fee": {
     "title": "Fee",
@@ -84,7 +102,10 @@
     "slipId": "Slip Id",
     "noRecordFound": "No fee record found",
     "noVouchersFound": "No vouchers found",
-    "noSlipFound": "No fee slip data available"
+    "noSlipFound": "No fee slip data available",
+    "subTotal": "Sub Total",
+    "tax": "Tax",
+    "netAmount": "Net Amount"
   },
   "exams": {
     "title": "Exams",
@@ -106,7 +127,9 @@
     "noDataAvailable": "No exam data available",
     "noSubjectsAvailable": "No subjects available",
     "endedOn": "Ended On",
-    "examInProgress":"The exam is in progress. Please come back later."
+    "examInProgress": "The exam is in progress. Please come back later.",
+    "inProgress": "In Progress",
+    "daysLeft": "days left"
   },
   "messages": {
     "title": "Messages",
@@ -155,7 +178,7 @@
     "due": "Due",
     "searchCountry": "Search Country",
     "noFilesUploadedYet": "No files uploaded yet",
-    "attachment": "Attachement",
+    "attachment": "Attachment",
     "downloadSuccessfully": "Downloaded successfully!",
     "failedToDownload": "Failed to download file: Something went wrong",
     "downloadLinkNotAvailable": "Download link not available",
@@ -163,7 +186,20 @@
     "somethingWentWrong": "Something went wrong",
     "chooseYourRole": "Choose your role",
     "account": "Account",
-    "cancel": "Cancel"
+    "cancel": "Cancel",
+    "maintenanceException": "The service is currently under maintenance. Please try again later.",
+    "notfoundException": "Method not found. Please contact support.",
+    "unknown": "Unknown",
+    "selectYear": "Select Year",
+    "failedToChangeLanguage": "Failed to change language.",
+    "na": "N/A",
+    "pleaseTryAgainLater": "Please try again later.",
+    "downloadingProgress": "Downloading... {progress}%",
+    "share": "Share",
+    "user": "USER",
+    "messageCount": "{count} Messages",
+    "noInternetConnection": "No internet connection",
+    "serverUnavailable": "Server is currently unavailable, try again later"
   },
   "validation": {
     "emailRequired": "Email is required",
@@ -171,7 +207,12 @@
     "passwordRequired": "Password is required",
     "pleaseEnterCode": "Please, enter code",
     "pleaseEnterCompletePin": "Please, enter complete pin",
-    "numberNotRegistered": "This number is not registered in any school!"
+    "numberNotRegistered": "This number is not registered in any school!",
+    "fieldRequired": "This field is required",
+    "namedFieldRequired": "{fieldName} is required",
+    "phoneRequired": "Phone number is required",
+    "nameRequired": "Name is required",
+    "invalidName": "Name should contain only letters and spaces"
   },
   "roles": {
     "chooseYourRole": "Choose your role",
@@ -184,12 +225,61 @@
     "noStudentAvailable": "No student data available",
     "noNoticesFound": "No notices found",
     "noScheduleFound": "No schedule found",
-    "noScheduleDataAvailable": "No schedule data available"
+    "noScheduleDataAvailable": "No schedule data available",
+    "noHomeworkFound": "No homework found",
+    "noSchedulesFound": "No schedules found"
+  },
+  "attendance": {
+    "monthly": "Monthly",
+    "yearly": "Year",
+    "missed": "Missed",
+    "monthlyAttendance": "Monthly Attendance",
+    "yearlyAttendance": "Yearly Attendance",
+    "present": "Present",
+    "absentLeaves": "Absent/Leaves",
+    "totalDays": "Total Days",
+    "absent": "Absent",
+    "leaves": "Leaves",
+    "noRecord": "No record",
+    "late": "Late",
+    "leave": "Leave",
+    "off": "Off"
+  },
+  "leaves": {
+    "totalLeaves": "Total Leaves",
+    "sickLeaves": "Sick Leaves",
+    "otherLeaves": "Other Leaves",
+    "leaveApplication": "Leave Application",
+    "leaveRequest": "Leave Request",
+    "requestDate": "Request Date",
+    "leaveDates": "Leave Date(s)",
+    "leaveType": "Leave Type",
+    "details": "Details",
+    "enterLeaveDetails": "Enter leave details",
+    "addAttachments": "Add Attachments",
+    "submitApplication": "Submit Application",
+    "datesLabel": "Date(s)"
   },
   "notices": {
-    "notices": "No student data available",
-    "noNoticesFound": "No notices found",
-    "noScheduleFound": "No schedule found",
-    "noScheduleDataAvailable": "No schedule data available"
+    "untitled": "Untitled",
+    "noticeNotFound": "Notice not found",
+    "notice": "Notice",
+    "noticeNumber": "Notice N°"
+  },
+  "stories": {
+    "new": "New",
+    "actionRequired": "Action Required",
+    "allMessages": "All Messages",
+    "newMessage": "New Message",
+    "message": "Message"
+  },
+  "update": {
+    "updateAvailable": "Update Available",
+    "newVersionAvailable": "A new version is available. Would you like to update?",
+    "update": "Update",
+    "updateRequired": "Update Required",
+    "pleaseUpdate": "Please update the app to continue.",
+    "updateOnAppStore": "Update on App Store",
+    "updateOnPlayStore": "Update on Play Store"
   }
 }
